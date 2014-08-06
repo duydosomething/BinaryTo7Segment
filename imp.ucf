@@ -1,0 +1,12 @@
+NET "sw3" LOC = "N3";  # Bank = 1, Signal name = SW3
+NET "sw2" LOC = "E2";  # Bank = 0, Signal name = SW2
+NET "sw1" LOC = "F3"; # Bank = 2, Signal name = SW1
+NET "sw0" LOC = "G3"; # Bank = 0, Signal name = SW0
+
+NET "a" LOC = "L14"; # Bank = 1, Signal name = CA
+NET "b" LOC = "H12"; # Bank = 1, Signal name = CB
+NET "c" LOC = "N14"; # Bank = 1, Signal name = CC
+NET "d" LOC = "N11"; # Bank = 2, Signal name = CD
+NET "e" LOC = "P12"; # Bank = 2, Signal name = CE
+NET "f" LOC = "L13"; # Bank = 1, Signal name = CF
+NET "g" LOC = "M12"; # Bank = 1, Signal name = CG

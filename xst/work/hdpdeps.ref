@@ -1,0 +1,6 @@
+V3 3
+FL "C:/Users/Duy/ISE Projects/lab1fix/decoder.vhd" 2014/07/08.19:57:19 P.20131013
+EN work/decoder 1404874695 FL "C:/Users/Duy/ISE Projects/lab1fix/decoder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/decoder/behavior 1404874696 \
+      FL "C:/Users/Duy/ISE Projects/lab1fix/decoder.vhd" EN work/decoder 1404874695

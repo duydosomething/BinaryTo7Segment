@@ -1,0 +1,52 @@
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/lab1fix/decoder.xst" -ofn "C:/Users/Duy/ISE Projects/lab1fix/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "decoder.ngc" decoder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf 
+bitgen -intstyle ise -f decoder.ut decoder.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/lab1fix/decoder.xst" -ofn "C:/Users/Duy/ISE Projects/lab1fix/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc imp.ucf -p xc3s100e-cp132-5 "decoder.ngc" decoder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf -ucf imp.ucf 
+bitgen -intstyle ise -f decoder.ut decoder.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc imp.ucf -p xc3s100e-cp132-5 "decoder.ngc" decoder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf -ucf imp.ucf 
+bitgen -intstyle ise -f decoder.ut decoder.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/lab1fix/decoder.xst" -ofn "C:/Users/Duy/ISE Projects/lab1fix/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc imp.ucf -p xc3s100e-cp132-5 "decoder.ngc" decoder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf -ucf imp.ucf 
+bitgen -intstyle ise -f decoder.ut decoder.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/lab1fix/decoder.xst" -ofn "C:/Users/Duy/ISE Projects/lab1fix/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc imp.ucf -p xc3s100e-cp132-5 "decoder.ngc" decoder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf -ucf imp.ucf 
+bitgen -intstyle ise -f decoder.ut decoder.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/lab1fix/decoder.xst" -ofn "C:/Users/Duy/ISE Projects/lab1fix/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc imp.ucf -p xc3s100e-cp132-5 "decoder.ngc" decoder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf -ucf imp.ucf 
+bitgen -intstyle ise -f decoder.ut decoder.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/lab1fix/decoder.xst" -ofn "C:/Users/Duy/ISE Projects/lab1fix/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc imp.ucf -p xc3s100e-cp132-5 "decoder.ngc" decoder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf -ucf imp.ucf 
+bitgen -intstyle ise -f decoder.ut decoder.ncd 
+xst -intstyle ise -ifn "C:/Users/Duy/ISE Projects/lab1fix/decoder.xst" -ofn "C:/Users/Duy/ISE Projects/lab1fix/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc imp.ucf -p xc3s100e-cp132-5 "decoder.ngc" decoder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf -ucf imp.ucf 
+bitgen -intstyle ise -f decoder.ut decoder.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc imp.ucf -p xc3s100e-cp132-5 "decoder.ngc" decoder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf -ucf imp.ucf 
+bitgen -intstyle ise -f decoder.ut decoder.ncd 
